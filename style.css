@@ -1,0 +1,276 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+.header{
+    background-image: url(./bg3.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.wrapper{
+    width: 1200px;
+    height: 100vh;
+    margin: auto;
+}
+.menu{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-title{
+    text-transform: uppercase;
+    color: white;
+    font: 28px;
+}
+.link{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    padding-left: 20px;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.content{
+    padding-top: 30%;
+}
+.content-title{
+    text-transform: uppercase;
+    color: white;
+    font-size: 75px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.content-button{
+    display: block;
+    text-decoration: none;
+    color: black;
+    width: 250px;
+    font-size: 22px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    transition: 0.3s;
+}
+.content-button:hover{
+    background-color: black;
+    color: white;
+}
+.wrapper2{
+    width: 100%;
+    height: 570px;
+    margin-top: 120px;
+}
+.section2{
+    width: 600px;
+    height: 450px;
+    margin: auto;
+    background-color: white;
+}
+.section2-title{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 55px;
+}
+.section2-text{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section2-button{
+    display: block;
+    text-decoration: none;
+    color: white;
+    width: 160px;
+    font-size: 22px;
+    padding: 15px 20px;
+    background-color: black;
+    text-align: center;
+    margin: auto;
+    transition: 0.4s;
+}
+.section2-button:hover {
+    background-color: rgba(48,53,56,255);
+}
+.projects{
+    height: 100vh;
+    background-color: black;
+}
+.wrapper3{
+    height: 100vh;
+    width: 1300px;
+    margin: auto;
+    padding-top: 60px;
+}
+.projects-title{
+    text-transform: uppercase;
+    font-size: 72px;
+    text-align: center;
+    color: white;
+    padding-bottom: 120px;
+}
+.projects-icons{
+    width: 380px;
+}
+.items-card{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding-bottom: 60px;
+}
+.photo{
+    width: 100%;
+}
+.photo-wrapper{
+    overflow: hidden;
+}
+.icons-title{
+   display: block;
+    color: white;
+    text-align: center;
+}
+.projects-button{
+    display: block;
+    text-decoration: none;
+    color: black;
+    width: 160px;
+    font-size: 22px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    transition: 0.4s;
+}
+.projects-button:hover {
+    background-color: rgba(48,53,56,255);
+}
+.services{
+    height: 80vh;
+}
+.services-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+    width: 1000px ;
+    margin: auto;
+}
+.services-left{
+    width: 50%;
+}
+.left-title{
+    font-size: 56px ;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+.left-text{
+    padding-bottom: 40px;
+}
+.services-button{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    width: 160px;
+    font-size: 22px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    transition: 0.4s;
+    text-align: center;
+}
+.services-button:hover {
+    background-color: rgba(48,53,56,255);
+}
+.services-right{
+    list-style: none;
+}
+.services-title{
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+.services-number{
+    font-size: 64px;
+    font-weight: 600;
+    padding-right: 40px;
+}
+.careers{
+    background-image: url(./bg5.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.careers-content{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:950px;
+}
+.flex-wrapper{
+    width: 400px;
+}
+.careers-title{
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+.carrers-text{
+    text-align: center;
+}
+.careers-button{
+    margin-top: 40px;
+    display: block;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    width: 250px;
+    font-size: 22px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: black;
+    transition: 0.4s;
+    text-align: center;
+}
+.careers-button:hover {
+    background-color: rgba(48,53,56,255);
+}
+.footer{
+    height: 50vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-title{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 200px;
+}
+.footer-right{
+    width: 200px;
+}
+.footer-span1{
+    display: block;
+    color: white;
+    padding-bottom: 70px;
+}
+
+
